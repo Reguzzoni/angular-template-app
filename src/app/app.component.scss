@@ -1,0 +1,9 @@
+.main-content {
+  margin-left: 200px; /* Spazio per la sidebar */
+  margin-top: 50px; /* Spazio per l'header */
+  padding-bottom: 50px; /* Spazio per il footer */
+  height: calc(
+    100vh - 50px - 50px
+  ); /* L'altezza prende in considerazione l'header e il footer */
+  overflow-y: auto; /* Aggiungi scroll verticale se necessario */
+}

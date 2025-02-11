@@ -1,0 +1,12 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 200px; /* Stesso valore del menu */
+  width: calc(100% - 200px);
+  height: 50px;
+  background-image: linear-gradient(to bottom, #197234, #197234);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}

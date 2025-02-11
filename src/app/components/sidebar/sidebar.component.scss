@@ -1,0 +1,38 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #197234, #4caf50);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 60px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  color: white; /* Colore del testo del link */
+  text-decoration: none; /* Rimuove la sottolineatura */
+  display: block; /* Imposta il link come un blocco per facilitarne il clic */
+  padding: 10px; /* Padding per fare in modo che il link sia più cliccabile */
+  border-radius: 5px; /* Angoli arrotondati per il link */
+  transition: background-color 0.3s, color 0.3s; /* Aggiungi transizione per il colore del testo */
+}
+
+.sidebar ul li a:hover {
+  background-color: #444; /* Colore di sfondo quando il mouse passa sopra */
+}
+
+.sidebar ul li a.active {
+  font-weight: bold;
+  color: yellow;
+  background-color: #333; /* Colore di sfondo per l'elemento attivo */
+}

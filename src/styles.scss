@@ -1,0 +1,6 @@
+.content {
+  width: 100%;
+  min-height: 100vh; // Imposta una altezza minima di 100% della viewport per garantire che occupi lo spazio disponibile
+  padding: 20px; // Aggiungi un po' di padding per dare spazio intorno al contenuto
+  box-sizing: border-box; // Assicurati che il padding non influenzi le dimensioni
+}
