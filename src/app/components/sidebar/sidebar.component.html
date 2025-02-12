@@ -2,20 +2,17 @@
 <div class="sidebar">
   <ul>
     <li>
-      <a routerLink="/home" routerLinkActive="active" class="sidebar-link"
-        >Home</a
-      >
+      <button mat-icon-button (click)="onLinkClick('/home')">Home</button>
+      <!-- <a onclick='() => onLinkClick("home")' class="sidebar-link">Home</a> -->
     </li>
 
     <li>
-      <a routerLink="/tango" routerLinkActive="active" class="sidebar-link"
-        >Tango</a
-      >
+      <button mat-icon-button (click)="onLinkClick('/tango')">Tango</button>
+      <!-- <a onclick='() => onLinkClick("tango")' class="sidebar-link">Tango</a> -->
     </li>
     <li>
-      <a routerLink="/queens" routerLinkActive="active" class="sidebar-link"
-        >Queens</a
-      >
+      <button mat-icon-button (click)="onLinkClick('/queens')">Queens</button>
+      <!-- <a onclick='() => onLinkClick("queens")' class="sidebar-link">Queens</a> -->
     </li>
   </ul>
 </div>

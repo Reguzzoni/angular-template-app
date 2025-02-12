@@ -4,15 +4,15 @@ import { QueensComponent } from './pages/queens/queens.component';
 import { TangoComponent } from './pages/tango/tango.component';
 import { HomeComponent } from './pages/home/home.component';
 
-const routes: Routes = [
+export const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'tango', component: TangoComponent },
   { path: 'queens', component: QueensComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
-})
-export class AppRoutingModule {}
+// @NgModule({
+//   imports: [RouterModule.forRoot(routes)],
+//   exports: [RouterModule],
+// })
+// export class AppRoutingModule {}
